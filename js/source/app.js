@@ -8,5 +8,5 @@ ReactDOM.render(
     <h1>
         <Logo />Welcome to The APP!
     </h1>,
-    document.getElementById('app')
+    document.getElementById('pad')
 );

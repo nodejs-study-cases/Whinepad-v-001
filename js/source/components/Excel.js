@@ -1,11 +1,13 @@
 import React from "react"
+import PropTypes from 'prop-types'
+import createReactClass from 'create-react-class'
 
-var Excel = React.createClass({
+var Excel = createReactClass({
     displayName: 'Excel',
 
     propTypes: {
-        headers: React.propTypes.arrayOf(React.propTypes.string),
-        initalData: React.propTypes.arrayOf(React.propTypes.string)
+        headers: PropTypes.arrayOf(PropTypes.string),
+        initalData: PropTypes.arrayOf(PropTypes.string)
     },
 
     getInitialState: function () {

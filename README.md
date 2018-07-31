@@ -11,3 +11,6 @@ Open the index.html file in browser.
 #ref-link
 https://github.com/stoyan/reactbook
 
+#version 3 showcase
+http://www.whinepad.com/
+
